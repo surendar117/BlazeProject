@@ -33,7 +33,7 @@ public class LoginPagePOM extends BaseClass implements LoginPageElements { // 1.
 		passValue(username, FileReaderManager.getProperty("username"));
 		passValue(password, FileReaderManager.getProperty("password"));
 		elementClick(loginBtn);
-		staticWait(3000);
+		staticWait(5000);
 		String actual = loginValidation.getText();
 		Assert.assertEquals(actual, "Welcome surendar@123");
 		System.out.println("logged in succesfully");
