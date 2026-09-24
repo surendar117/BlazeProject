@@ -22,15 +22,15 @@ public class FileReaderManager {  //1.private method  2.public method 3.main met
 	
 	public static String getProperty(String key) {
 		setUpProperty();
-		String value = property.getProperty(key);
-		//System.out.println(value);
+		String value = property.getProperty(key); 
+		System.out.println(value);
 		return value;
 	}
 	
-//	public static void main(String[] args) {
-//		
-//		getProperty("password");
-//		
-//	}
+	public static void main(String[] args) {
+		
+		getProperty("password");
+		
+	}
 
 }

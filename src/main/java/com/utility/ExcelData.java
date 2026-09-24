@@ -56,11 +56,11 @@ public class ExcelData {
 		}
 	}
 
-//	public static void main(String[] args) {
-//		
-//	    getSingleExcelData();
-//		getAllExcelData();
-//		
-//	}
+	public static void main(String[] args) {
+		
+		getSingleExcelData(1,2);
+		getAllExcelData();
+		
+	}
 
 }
